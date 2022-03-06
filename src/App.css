@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Poppins&display=swap');
 .App {
   text-align: center;
+  
+  background-color: #ffcccc;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +38,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.body-bg{
+  background-color: rgba(0,0,0,0.5);
+}
+.title{
+  font-size: 36px;
+  color:black;
+  font-family: 'Lato', sans-serif;
+}
+.video-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px auto;
+  width: 80%;
+ 
+}
+.video{
+  margin-right: 20px;
+}
+.myId{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: 55px auto 20px auto;
+}
+.input-field{
+  padding: 10px 50px;
+  border-radius: 5px;
+  outline:0cm;
+  border: 1px solid #fff200;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 24px;
+
+}
+
+.outgoing-call-button{
+  background-color: transparent;
+  border: 0px;
+  margin: 20px;
+}
+.outgoing-call-button:hover{
+  cursor: pointer;
+}
+
+.outgoing-call-button i{
+  font-size: 38px;
+  color: green;
+ 
+}
+.clip-board{
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.5s;
+}
+.clip-board:hover{
+  cursor: pointer;
+ width: 120px;
+}
+.close-call-button i{
+  color: #ff4d4d;
+  font-size: 38px;
+  
 }
